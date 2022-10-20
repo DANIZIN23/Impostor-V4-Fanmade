@@ -16,10 +16,9 @@ import flixel.graphics.frames.FlxFrame;
 #if desktop
 import sys.FileSystem;
 import sys.io.File;
-#else
-import js.html.FileSystem;
-import js.html.File;
 #end
+
+
 
 using StringTools;
 class AtlasFrameMaker extends FlxFramesCollection
